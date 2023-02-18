@@ -1,0 +1,22 @@
+.intro{
+    text-align: center;
+    padding-top: 80px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: cursive;
+}
+.intro p{
+    color: green;
+}
+.intro button {
+    margin-top: 45px;
+    font-size: 22px;
+    padding: 9px;
+    border-radius: 7px;
+    /* color: aqua; */
+    width: 200px;
+}
+#demo{
+    width: 35%;
+    margin: 0 auto;
+}

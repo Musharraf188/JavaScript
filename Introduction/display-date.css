@@ -1,0 +1,17 @@
+.show__date{
+    text-align: center;
+    padding-top: 80px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: cursive;
+
+}
+.show__date button {
+    font-size: 23px;
+    border-radius: 9px;
+    padding: 9px;
+    
+}
+.show__date p{
+    color: green;
+}
