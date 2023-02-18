@@ -5,8 +5,11 @@
     font-weight: 600;
     font-family: cursive;
 }
-.intro p{
+.intro p {
     color: green;
+    font-size: 23px;
+    line-height: 2.3rem;
+    font-family: monospace;
 }
 .intro button {
     margin-top: 45px;
