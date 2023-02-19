@@ -1,0 +1,18 @@
+.const{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 600;
+    width: 38%;
+    margin: 0 auto;
+}
+.A{
+    color: green;
+}
+.B{
+    color: grey;
+}
+.C{
+    color: orangered;
+}
