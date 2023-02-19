@@ -1,0 +1,16 @@
+.variables{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 600;
+    
+}
+.theory{
+    width: 35%;
+    margin: 0 auto;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 600;
+    color: green;
+}
