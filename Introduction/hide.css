@@ -1,0 +1,14 @@
+.hide{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 80px;
+    font-size: larger;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.hide button {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: larger;
+    width: 150px;
+}
