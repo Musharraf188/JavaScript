@@ -1,0 +1,11 @@
+.font{
+    text-align: center;
+    font-weight: 600;
+    font-family: monospace;
+    padding-top: 100px;
+}
+.font button{
+    font-size: 23px;
+    padding: 9px;
+    border-radius: 10px;
+}
