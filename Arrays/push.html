@@ -7,14 +7,12 @@
     <title>JS</title>
 </head>
 <body>
-    <h2>You Have to add value in array before parent array is not intialize</h2>
+    <h2>Push Array Method</h2>
     <p id="demo"></p>
     <script>
-        let cars=[];
-        cars[0]="Fortuner";
-        cars[1]="Swift";
-        cars[2]="Honda";
-document.getElementById("demo").innerHTML=cars;
+        const cars=['Volvo', 'Saab', 'Maruti'];
+        let pushElement=cars.push('Swift');
+        document.getElementById("demo").innerHTML=cars;
     </script>
 </body>
 </html>

@@ -7,14 +7,18 @@
     <title>JS</title>
 </head>
 <body>
-    <h2>You Have to add value in array before parent array is not intialize</h2>
+    <h2>Looping Array Elements</h2>
     <p id="demo"></p>
     <script>
-        let cars=[];
-        cars[0]="Fortuner";
-        cars[1]="Swift";
-        cars[2]="Honda";
-document.getElementById("demo").innerHTML=cars;
+const cars =['Volvo', 'Saab', 'Tata'];
+let cLen =cars.length;
+let text="<ul>"
+for(i=0; i<cLen; i++){
+text+= "<li>" +cars[i]+"</li>";
+}
+text+="</ul>";
+document.getElementById("demo").innerHTML=text;
+
     </script>
 </body>
 </html>

@@ -7,14 +7,13 @@
     <title>JS</title>
 </head>
 <body>
-    <h2>You Have to add value in array before parent array is not intialize</h2>
+    <h2>Array Methods..</h2>
     <p id="demo"></p>
     <script>
-        let cars=[];
-        cars[0]="Fortuner";
-        cars[1]="Swift";
-        cars[2]="Honda";
-document.getElementById("demo").innerHTML=cars;
+        const cars=['Maruti', 'Tata', 'Volvo', 'Saab', 'Creata'];
+        let cLen=cars[cars.length-1];
+        document.getElementById("demo").innerHTML=cLen;
+        // The length property is always one more than the highest array index.
     </script>
 </body>
 </html>
